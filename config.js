@@ -1,13 +1,13 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://arpit73.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  title: 'Arpit Bharti',
+  subtitle: 'GSoC 2019 at Mozilla | Python | React | OSS Lover | Anime Nerd | Audiophile | 3D Artist',
+  copyright: '',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 7,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
   menu: [
@@ -25,19 +25,19 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Arpit Bharti',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-    contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+    bio: 'GSoC 2019 @mozilla | Python | React | OSS Lover | Anime Nerd | Audiophile 🎧 | 3D Artist',
+ contacts: {
+      email: 'arpitbharti73@gmail.com',
+      telegram: 'arpit73',
+      twitter: 'arpitbharti73',
+      github: 'arpit73',
+      instagram: '_arpitb_',
+      linkedin: 'arpitbharti',
+      facebook: '',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
       line: '',
       gitlab: '',
       weibo: ''
