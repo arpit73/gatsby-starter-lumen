@@ -24,6 +24,7 @@ An update to the public suffix list (PSL) is shipped bundled with Firefox releas
 
 For more in depth details, view the <a href="https://docs.google.com/document/d/1kxlAhu87MQtATxYfBdfRO-WjMHVNo1jA9Gr5mdVBnN8/edit?usp=sharing">Blueprint Document</a>.
 
+
 ### Contributions
 
 <table>

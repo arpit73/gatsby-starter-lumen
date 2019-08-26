@@ -1,10 +1,12 @@
+@import '../../assets/scss/variables';
+
 .icon {
   display: inline-block;
-  width: 1em;
-  height: 1em;
+  width: 1.3em;
+  height: 1.3em;
   stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
+  stroke: $color-svg;
+  fill: $color-svg;
   font-style: normal;
   font-weight: normal;
   speak: none;
