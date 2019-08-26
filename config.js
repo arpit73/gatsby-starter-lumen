@@ -20,15 +20,15 @@ module.exports = {
             path: '/pages/about'
         },
         {
-            label: 'Contact me',
-            path: '/pages/contacts'
+            label: 'My art',
+            path: '/pages/art'
         }
     ],
     author: {
         name: 'Arpit Bharti',
         photo: '/photo.jpg',
         bio:
-            'GSoC 2019 at Mozilla | Python | React | Anime Nerd | Audiophile | 3D Artist',
+            'Developer & Artist',
         contacts: {
             email: 'arpitbharti73@gmail.com',
             telegram: 'arpit73',
