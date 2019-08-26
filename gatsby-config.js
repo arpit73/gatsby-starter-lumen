@@ -120,13 +120,7 @@ module.exports = {
             resolve: 'gatsby-remark-responsive-iframe',
             options: { wrapperStyle: 'margin-bottom: 1.0725rem' }
           },
-          {
-            resolve: 'gatsby-remark-code-buttons',
-            options: {
-              // Optional svg icon class name. Defaults to 'gatsby-code-button-icon'.
-              svgIconClass: `gatsby-code-button-icon`,
-            }
-          },
+          // 'gatsby-remark-code-buttons',
           'gatsby-remark-autolink-headers',
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
@@ -196,7 +190,7 @@ module.exports = {
         icon: 'static/photo.jpg'
       },
     },
-    'gatsby-plugin-offline',
+    // 'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
     {
