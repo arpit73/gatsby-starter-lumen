@@ -2,22 +2,25 @@
  * Variables
  */
 
- 
+
 // Dark mode colors
 $color-background: #0e1419;
 $color-base: #ced1cd;
 $color-primary: #2c9ab6;
-$color-secondary: #c678dd;
+$color-secondary: $color-primary;
+$color-title: rgb(255, 200, 229);
 
 $color-white: rgb(209, 209, 209);
 $color-gray: lighten($color-base, 40%);
 $color-gray-border: lighten($color-base, 77%);
 $color-gray-bg: lighten($color-base, 79%);
 
-$color-svg: $color-base;
+$color-svg: $color-white;
+$color-hover: rgb(131, 189, 255);
+
 
 // Typographic
-$typographic-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+$typographic-font-family: -apple-system, Montserrat, sans-serif;
 
 $typographic-root-font-size: 100;
 $typographic-base-font-size: 16px;

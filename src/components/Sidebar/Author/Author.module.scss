@@ -25,18 +25,19 @@
             @include line-height(1.125);
             margin: 0;
             &-link {
-                color: $color-base;
+                color: $color-title;
 
                 &:hover,
                 &:focus {
-                    color: $color-base;
+                    color: $color-hover;
                 }
             }
         }
 
         &__subtitle {
-            color: $color-gray;
+            color: $color-secondary;
             @include line-height(1);
+            font-weight: 100;
             margin: 0 0 0 0;
         }
     }
