@@ -1,4 +1,5 @@
 'use strict';
 
-require('./src/assets/scss/init.scss');
-require('./static/css/prismjs/one-dark.css');
+import './src/assets/scss/init.scss';
+import './static/css/prismjs/one-dark.css';
+import './src/assets/scss/copy/custom-code-buttons.scss';
