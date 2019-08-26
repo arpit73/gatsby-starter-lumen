@@ -18,6 +18,7 @@
 
   &__body {
     font-size: $typographic-base-font-size;
+    font-weight: $typographic-font-weight;
     @include line-height(1);
     @include margin(0, 0, 1);
   }

@@ -34,7 +34,7 @@
     &-description {
       font-size: $typographic-base-font-size;
       @include line-height(1);
-      font-weight: 330;
+      font-weight: $typographic-font-weight;
       margin: 0.3rem 0 0 0;
     }
 
