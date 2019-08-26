@@ -26,7 +26,7 @@ module.exports = {
     ],
     author: {
         name: 'Arpit Bharti',
-        photo: '/photo.jpg',
+        photo: '/astro.png',
         bio:
             'Developer & Artist',
         contacts: {
