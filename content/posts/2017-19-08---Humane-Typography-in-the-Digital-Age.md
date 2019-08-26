@@ -20,6 +20,10 @@ socialImage: '/media/42-line-bible.jpg'
 
 An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.
 
+```bash
+$ npm install --save gatsby-plugin-offline
+```
+
 ```js
 alert('click to copy 💾');
 ```
