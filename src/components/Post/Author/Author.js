@@ -1,5 +1,6 @@
 // @flow strict
 import React from 'react';
+import { withPrefix, Link } from 'gatsby';
 import { getContactHref } from '../../../utils';
 import styles from './Author.module.scss';
 import { useSiteMetadata } from '../../../hooks';
@@ -9,23 +10,22 @@ const Author = () => {
 
   return (
     <div className={styles['author']}>
-      
-      <img className={styles['author__photo']} src={author.photo}></img>
+      <Link to="/">
+        <img src={withPrefix(author.photo)} className={styles['author__photo']} alt={author.name} />
+      </Link>
 
       <p className={styles['author__bio']}>
-      Personal blog by &nbsp;
+        Personal blog by &nbsp;
         <a
           className={styles['author__bio__link']}
-          href={getContactHref('twitter', author.contacts.twitter)}
+          href={getContactHref('github', author.contacts.github)}
           rel="noopener noreferrer"
           target="_blank"
         >
-        {author.name}
+          {author.name}
         </a>
-        <br/> {author.bio}
+        <br /> {author.bio}
       </p>
-
-
     </div>
   );
 };

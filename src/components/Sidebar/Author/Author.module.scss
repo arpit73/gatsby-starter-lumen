@@ -20,7 +20,8 @@
         // margin-left: 1em;
 
         &__title {
-            font-size: $typographic-base-font-size * 1.125;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: $typographic-base-font-size * 1.75;
             font-weight: 600;
             @include line-height(1.125);
             margin: 0;

@@ -3,7 +3,7 @@
 
 .page {
     @include margin-bottom(2);
-    * { outline: solid 0.15rem rgba(255, 255, 255, 0.329); }
+    // * { outline: solid 0.05rem rgba(255, 255, 255, 0.329); }
     max-width: 100%;
     margin: auto;
 

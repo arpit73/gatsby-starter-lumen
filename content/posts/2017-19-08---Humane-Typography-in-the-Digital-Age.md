@@ -2,7 +2,7 @@
 title: Humane Typography in the Digital Age
 date: '2017-08-19T22:40:32.169Z'
 template: 'post'
-draft: false
+draft: true
 slug: '/posts/humane-typography-in-the-digital-age/'
 category: 'Typography'
 tags:
@@ -65,6 +65,7 @@ export default Icon;
 ```
 
 ```cpp
+
 NS_IMETHODIMP nsEffectiveTLDService::Observe(nsISupports* aSubject,
                                              const char* aTopic,
                                              const char16_t* aData) {
@@ -97,11 +98,10 @@ NS_IMETHODIMP nsEffectiveTLDService::Observe(nsISupports* aSubject,
   }
   return NS_OK;
 }
-
-
-
 ```
+
 ```python
+
 # Python program for implementation of Radix Sort
 
 # A function to do counting sort of arr[] according to

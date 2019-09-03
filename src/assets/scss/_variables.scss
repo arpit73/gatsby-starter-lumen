@@ -2,10 +2,9 @@
  * Variables
  */
 
-
 // Dark mode colors #141d24 #0e1419
 $color-background: #0e1419;
-$color-base: #ced1cd;
+$color-base: #ececec;
 $color-primary: #2c9ab6;
 $color-secondary: $color-primary;
 $color-title: rgb(255, 200, 229);
@@ -18,10 +17,9 @@ $color-gray-bg: lighten($color-base, 79%);
 $color-svg: $color-white;
 $color-hover: rgb(131, 189, 255);
 
-
 // Typographic
 $typographic-font-weight: 300;
-$typographic-font-family: -apple-system, Montserrat, sans-serif;
+$typographic-font-family: -apple-system, sans-serif;
 
 $typographic-root-font-size: 100;
 $typographic-base-font-size: 16px;
@@ -33,14 +31,16 @@ $typographic-base-font-color: $color-base;
 $typographic-link-p-font-color: $color-primary;
 $typographic-link-s-font-color: $color-secondary;
 
-$typographic-leading: round(16 * ($typographic-root-font-size / 100) * $typographic-base-line-height);
+$typographic-leading: round(
+    16 * ($typographic-root-font-size / 100) * $typographic-base-line-height
+);
 
 // Buttons
 $button-height: 35px;
 $button-border-radius: 20px;
 
 // Layout
-$layout-post-single-width: 945px;
+$layout-post-single-width: 1050px;
 $layout-post-width: $layout-post-single-width - 305px;
 
 $layout-width: 1070px;

@@ -1,5 +1,5 @@
 ---
-title: Arpit Bharti - GSoC 2019 Report
+title: Google Summer Of Code 2019 Work Report
 date: "2018-08-26T23:46:37.121Z"
 template: "post"
 draft: false
