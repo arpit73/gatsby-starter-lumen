@@ -125,9 +125,11 @@ For more in depth details, view the <a href="https://docs.google.com/document/d/
 
 #### Side Project
 
--   [Convert a binary file into a C++ array of hexadecimal numbers](https://github.com/arpit73/dafsaBinary-to-hexArray), this was a short exercise to get comfortable working with C++ and understand firsthand how the binary will be converted into a hex array, the first few iterations of my last patch were following the approach here but on sugesstion of the other developers I used another method that didn't involve filestream operations.
+-   <p><a href="https://github.com/arpit73/dafsaBinary-to-hexArray">Convert a binary file into a C++ array of hexadecimal numbers</a>, this was a short exercise to get comfortable working with C++ and understand firsthand how the binary will be converted into a hex array, the first few iterations of my last patch were following the approach here but on sugesstion of the other developers I used another method that didn't involve filestream operations.
+</p>
 
 #### Issues I opened
 
--   [Fix to make prepare_tlds.py run on Python 3](https://bugzilla.mozilla.org/show_bug.cgi?id=1552658), this was minor patch that I needed in order to ensure identical behavior with Python 2 and Python 3, I reported the issue and provided a solution as such the issue was marked as a good first bug and was solved by a friend of mine whom I introduced to firefox development.
--   [Cannot push binary file with moz-phab](https://bugzilla.mozilla.org/show_bug.cgi?id=1574145) This a was bug I encountered with `moz-phab`, the utility used for submitting patches to phabricator. The program would freeze when I attempted to push a binary file in my revision. The issues remains unresolved and I found a work around by creating a binary file at build time.
+-   <p><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1552658">Fix to make prepare_tlds.py run on Python 3</a> this was minor patch that I needed in order to ensure identical behavior with Python 2 and Python 3, I reported the issue and provided a solution as such the issue was marked as a good first bug and was solved by a friend of mine whom I introduced to firefox development.</p>
+
+-   <p><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1574145">Cannot push binary file with moz-phab</a> This a was bug I encountered with `moz-phab`, the utility used for submitting patches to phabricator. The program would freeze when I attempted to push a binary file in my revision. The issues remains unresolved and I found a work around by creating a binary file at build time.</p>
