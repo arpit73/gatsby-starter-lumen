@@ -186,7 +186,7 @@ module.exports = {
         start_url: '/',
         background_color: '#0e1419',
         theme_color: '#0e1419',
-        display: 'standalone',
+        display: 'browser',
         icon: 'static/astro.png'
       },
     },
