@@ -187,7 +187,7 @@ module.exports = {
         background_color: '#0e1419',
         theme_color: '#0e1419',
         display: 'standalone',
-        icon: 'static/astro.jpg'
+        icon: 'static/astro.png'
       },
     },
     // 'gatsby-plugin-offline',
