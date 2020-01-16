@@ -3,13 +3,13 @@
  */
 
 // Dark mode colors #141d24 #0e1419
-$color-background: #0e1419;
+$color-background: #19232c;
 $color-base: #dddddd;
 $color-primary: #2c9ab6;
 $color-secondary: $color-primary;
-$color-title: rgb(255, 200, 229);
+$color-title: rgb(255, 180, 220);
 
-$color-white: rgb(209, 209, 209);
+$color-white: rgb(224, 221, 221);
 $color-gray: lighten($color-base, 40%);
 $color-gray-border: lighten($color-base, 77%);
 $color-gray-bg: lighten($color-base, 79%);
